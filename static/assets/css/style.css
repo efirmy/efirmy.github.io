@@ -1999,7 +1999,7 @@ summary::after {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background-color: #11062b;
   color: #fff;
   font-size: 14px;
   position: relative;
