@@ -90,6 +90,52 @@ From there new list of articles
 .article__container {
   z-index: 2;
 }
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 37px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 80%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 71.5%;
+  }
+}
+ul {
+  list-style: circle inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+li1 {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+table {
+  border-spacing: 0;
+}
+
+table td {
+  padding: 8px;
+}
 
 @media (min-width: 768px) {
   .article__container {
@@ -1993,6 +2039,27 @@ summary::after {
   padding-right: 10px;
   color: #3b0e41;
   content: "/";
+}
+.btn, .news-tags ul a {
+  display: inline-block;
+  padding: calc(16px + 3 * ((100vw - 320px) / 1600)) calc(40px + 10 * ((100vw - 320px) / 1600));
+  line-height: 1.63;
+  letter-spacing: 1.28px;
+  border: 2px solid #0083d1;
+  border-radius: 39px;
+  text-transform: uppercase;
+  color: #0083d1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.container--small-padding {
+  padding: 0 19px;
+}
+
+@media (min-width: 1200px) {
+  .container--small-padding {
+    padding: 0;
+  }
 }
 
 /*--------------------------------------------------------------
