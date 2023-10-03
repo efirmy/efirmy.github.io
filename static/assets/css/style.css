@@ -22,6 +22,7 @@ a {
 a:hover {
   color: #ffa790;
   text-decoration: none;
+  cursor: pointer;
 }
 
 h1,
@@ -473,6 +474,10 @@ table td {
 
 .news__item p {
   line-height: 26px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  overflow: hidden;
 }
 
 
