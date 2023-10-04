@@ -2950,7 +2950,8 @@ table td {
 }
 
 .menu-item:nth-of-type(3):not(.is-active), .menu-item:nth-of-type(4):not(.is-active) {
-  color: #0083d1;
+  color: #272727;
+  
 }
 
 .menu-item a {
