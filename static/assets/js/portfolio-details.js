@@ -45,7 +45,7 @@ readMoreButtons.forEach(button => {
         localStorage.setItem('selectedEntry', JSON.stringify(selectedEntry));
 
         // Open a new page with detailed information for the clicked entry
-        window.location.href = `article.html?title=${encodeURIComponent(selectedEntry.title)}&imagePath=${encodeURIComponent(selectedEntry.imagePath)}&indexpage=${index + 1}`;
+        window.location.href = `article.html?title=${encodeURIComponent(selectedEntry.title)}&imagePath=${encodeURIComponent(selectedEntry.imagePath)}&indexpage=${index}`;
     });
 });  
            
