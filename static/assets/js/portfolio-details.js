@@ -9,10 +9,10 @@ fetch('entries_json_file.json')
             console.log("1")
             entryDiv.innerHTML = `
 
-            <ul class="news__list">${data.map(function(oneEntry, index){
+            <ul id="entryList" class="news__list">${data.map(function(oneEntry, index){
                     return`
                     
-                        <li class="news__item" data-show="rower">
+                        <li class="news__item" data-show=${oneEntry.tag}>
                             <div class="news__item--img" style="background-image: url(&#39; ${oneEntry.image} &#39;);"></div>
                             <div class="news__content">
                               <div class="news__content--main">
