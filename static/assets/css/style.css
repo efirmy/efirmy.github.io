@@ -127,7 +127,7 @@ dl {
 }
 .btn:hover, .news-tags li1 ul a:hover {
   color: #ffffff;
-  background-color: #0083d1;
+  background-color: #4ACAF7;
 }
 .news-tags ul a:hover {
   color: #ffffff;
@@ -781,7 +781,7 @@ table td {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #5493E9;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1177,7 +1177,7 @@ section {
 }
 
 .our-values .card:hover .card-body {
-  background: #5493E9;
+  background: #4ACAF7;
 }
 
 .our-values .card:hover .read-more a,
@@ -1743,7 +1743,7 @@ summary::after {
 }
 
 .pricing ul i {
-  color: #5493E9;
+  color: #4ACAF7;
   font-size: 18px;
   padding-right: 4px;
 }
