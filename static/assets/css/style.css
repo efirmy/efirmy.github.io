@@ -2079,7 +2079,7 @@ summary::after {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background-color: #11062b;
+  background-color: #4ACAF7;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -2092,7 +2092,7 @@ summary::after {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(2, 0, 2, 0.6);
+ 
   z-index: 1;
 }
 
