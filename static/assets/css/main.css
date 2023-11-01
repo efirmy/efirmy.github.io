@@ -3124,6 +3124,7 @@ table td {
 
 .contact__title {
   margin-right: 7.44792vw;
+  margin-left: 166px;
   margin-bottom: 36px;
   width: 100%;
   line-height: 1.51;
@@ -4054,6 +4055,92 @@ table td {
 
 .margin-nulled {
   margin: 0;
+}
+
+.contact__container {
+  background-color: #05a2ff;
+  width:100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: calc(64px + 62 * ((100vw - 320px) / 1600));
+  padding-bottom: calc(62px + 54 * ((100vw - 320px) / 1600));
+}
+
+@media (min-width: 1025px) {
+  .contact__container {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+.contact-column {
+  margin-bottom: 1px;
+  width: 100%;
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .contact-column {
+    margin-bottom: 0;
+    width: auto;
+  }
+}
+
+.contact-column:last-of-type {
+  margin-bottom: 1px;
+}
+
+@media (min-width: 900px) {
+  .contact-column:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.contact-column__info {
+  line-height: 1.86;
+}
+
+@media (min-width: 1025px) {
+  .contact-column__info {
+    line-height: 2;
+  }
+}
+
+.contact-column__info a {
+  color: #ffffff;
+}
+
+.contact__btn:hover .contact__icon::before {
+  color: #bb717e;
+}
+
+.contact__icon {
+  display: inline-block;
+  -webkit-transform: translateY(-1px);
+  transform: translateY(-1px);
+  margin-right: calc(13px + 7 * ((100vw - 320px) / 1600));
+  vertical-align: middle;
+  font-size: calc(18px + 5 * ((100vw - 320px) / 1600));
+  color: #ffffff;
+}
+
+.btn--fb {
+  padding: calc(16px + 3 * ((100vw - 320px) / 1600)) calc(16px + 24 * ((100vw - 320px) / 1600)) calc(16px + 3 * ((100vw - 320px) / 1600)) calc(18px + 13 * ((100vw - 320px) / 1600));
+  font-weight: 500;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #0f2736;
+  text-transform: none;
+  margin-right: 5%;
 }
 
 /*# sourceMappingURL=main.css.map */
