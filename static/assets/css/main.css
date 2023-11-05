@@ -387,6 +387,7 @@ textarea {
 details,
 menu {
   display: block;
+  float: left;
 }
 
 /*
@@ -2083,13 +2084,15 @@ table td {
   border-color: #ffffff;
 }
 
+
 .btn--fb {
   padding: calc(16px + 3 * ((100vw - 320px) / 1600)) calc(16px + 24 * ((100vw - 320px) / 1600)) calc(16px + 3 * ((100vw - 320px) / 1600)) calc(18px + 13 * ((100vw - 320px) / 1600));
   font-weight: 500;
   color: #ffffff;
   border-color: #ffffff;
-  background-color: #0f2736;
+  background-color: #59b6f0;
   text-transform: none;
+  margin-right: 5%;
 }
 
 .btn--fb:hover {
@@ -2689,7 +2692,7 @@ table td {
 }
 
 .hero {
-  position: relative;
+  position:absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2706,6 +2709,7 @@ table td {
   background-position: 30% 50%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  height: ;
 }
 
 @media (min-width: 1100px) {
@@ -2853,18 +2857,21 @@ table td {
 
 .menu-logo__img {
   height: 38px;
+  
 }
 
 @media (min-width: 1100px) {
   .menu-logo__img {
     min-width: 110px;
     height: auto;
+   
   }
 }
 
 @media (min-width: 1366px) {
   .menu-logo__img {
     min-width: 8.85417vw;
+   
   }
 }
 
@@ -4133,14 +4140,6 @@ table td {
   color: #ffffff;
 }
 
-.btn--fb {
-  padding: calc(16px + 3 * ((100vw - 320px) / 1600)) calc(16px + 24 * ((100vw - 320px) / 1600)) calc(16px + 3 * ((100vw - 320px) / 1600)) calc(18px + 13 * ((100vw - 320px) / 1600));
-  font-weight: 500;
-  color: #ffffff;
-  border-color: #ffffff;
-  background-color: #0f2736;
-  text-transform: none;
-  margin-right: 5%;
-}
+
 
 /*# sourceMappingURL=main.css.map */
