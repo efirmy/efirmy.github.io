@@ -109,17 +109,17 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="news-tags container container--small-padding js-news-tag">
        <ul id="tagButtons">
-  <li1><a href="#all" title="Wszystkie" class="is-active">Wszystkie</a></li1>
-  <li1><a href="#tag3" title="Elektryczne samochody" class="">Elektryczne samochody</a></li1>
-  <li1><a href="#tag1" title="ładowanie" class="">Ładowanie</a></li1>
-  <li1><a href="#tag2" title="Podróże" class="">Podróże</a></li1>
-  <li1><a href="#tag3" title="polityka" class="">polityka</a></li1>
-  <li1><a href="#tag4" title="Raporty" class="">Raporty</a></li1>
-  <li1><a href="#tag5" title="Stacje ładowania" class="">Stacje ładowania</a></li1>
-  <li1><a href="#tag6" title="Statystyki" class="">Statystyki</a></li1>
-  <li1><a href="#tag7" title="Technologia" class="">Technologia</a></li1>
-  <li1><a href="#tag8" title="Wiedza" class="">Wiedza</a></li1>
-  <li1><a href="#tag9" title="Wydarzenia" class="">Wydarzenia</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=alltags" title="Wszystkie" class="is-active">Wszystkie</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=elektryczne_samochody" title="Elektryczne samochody" class="">Elektryczne samochody</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=ladowanie" title="ładowanie" class="">Ładowanie</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=podroze" title="Podróże" class="">Podróże</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=polityka" title="polityka" class="">polityka</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=raporty" title="Raporty" class="">Raporty</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=stacje_ladowania" title="Stacje ładowania" class="">Stacje ładowania</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=statystyki" title="Statystyki" class="">Statystyki</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=technologia" title="Technologia" class="">Technologia</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=wiedza" title="Wiedza" class="">Wiedza</a></li1>
+  <li1><a href="/portfolio-details.html?tagname=wydarzenia" title="Wydarzenia" class="">Wydarzenia</a></li1>
   
 </ul>
 
@@ -559,27 +559,7 @@
   <script type="module" src="/static/assets/js/portfolio-details.js"></script>
 
   <script>
-    const sortingMenu = document.getElementById('tagButtons');
-    const entryListf = document.getElementById('entryList');
 
-sortingMenu.addEventListener('click', (event) => {
-    if (event.target.tagName === 'A') {
-        event.preventDefault(); // Prevent the default link behavior
-
-        const selectedTag = event.target.getAttribute('href').substring(1); // Remove the '#' character
-
-        // Loop through the entries and show/hide based on the selected tag
-        const entries = entryListf.querySelectorAll('.news__item');
-        entries.forEach((entry) => {
-            const entryTags = entry.getAttribute('data-show').split(' ');
-            if (selectedTag === 'all' || entryTags.includes(selectedTag)) {
-                entry.style.display = 'block';
-            } else {
-                entry.style.display = 'none';
-            }
-        });
-    }
-});
      
 
 

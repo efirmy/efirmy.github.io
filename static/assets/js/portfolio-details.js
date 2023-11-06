@@ -4,10 +4,21 @@ fetch('entries_json_file.json')
     .then(response => response.json())
     .then(data => {
         // Iterate through the data and create HTML elements to display it
-        data.forEach((entry, index) => {
+       
             const entryDiv = document.getElementById("app");
             console.log("1")
-            entryDiv.innerHTML = `
+            var queryString = window.location.search;
+            var params = new URLSearchParams(queryString);
+            var elementFromJSON = params.get('tagname');
+            if(elementFromJSON != 'alltags'){
+                 data = data.filter( element => element.tag ==elementFromJSON)
+            }
+           
+            console.log(data)
+             console.log(elementFromJSON)
+            entryDiv.innerHTML =
+            
+            `
 
             <ul id="entryList" class="news__list">${data.map(function(oneEntry, index){
                     return`
@@ -32,8 +43,8 @@ fetch('entries_json_file.json')
                  }).join("")}</ul>`
                  
                  const readMoreButtons = document.querySelectorAll('.news__item--link');
-readMoreButtons.forEach(button => {
-    button.addEventListener('click', () => {
+     readMoreButtons.forEach(button => {
+     button.addEventListener('click', () => {
         // Get the index of the associated entry from the data-entry-index attribute
         const index = button.getAttribute('data-entry-index');
         
@@ -46,15 +57,15 @@ readMoreButtons.forEach(button => {
 
         // Open a new page with detailed information for the clicked entry
         window.location.href = `article.html?title=${encodeURIComponent(selectedEntry.title)}&imagePath=${encodeURIComponent(selectedEntry.imagePath)}&indexpage=${index}`;
-    });
-});  
+     });
+     });  
            
             dataContainer.appendChild(entryDiv);
-        });
-    })
-    .catch(error => {
+     
+      })
+     .catch(error => {
         console.error('Error loading JSON data:', error);
-    });
+      });
 
 
 
