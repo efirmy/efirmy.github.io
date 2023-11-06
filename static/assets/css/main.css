@@ -3511,15 +3511,15 @@ table td {
 
 .article__intro {
   position: relative;
-  padding-top: calc(120px + 160 * ((100vw - 320px) / 1600));
-  padding-bottom: 52px;
+  /* padding-top: calc(120px + 160 * ((100vw - 320px) / 1600)); */
+  padding-bottom: 12px;
   z-index: -1;
   background-color: #f8f8f8;
 }
 
 @media (min-width: 768px) {
   .article__intro {
-    padding-bottom: calc(52px + 340 * ((100vw - 320px) / 1600));
+    /* padding-bottom: calc(52px + 340 * ((100vw - 320px) / 1600)); */
   }
 }
 
