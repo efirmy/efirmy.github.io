@@ -14,12 +14,9 @@ fetch('entries_json_file.json')
                  data = data.filter( element => element.tag ==elementFromJSON)
             }
            
-            console.log(data)
-             console.log(elementFromJSON)
             entryDiv.innerHTML =
             
             `
-
             <ul id="entryList" class="news__list">${data.map(function(oneEntry, index){
                     return`
                     
@@ -50,7 +47,7 @@ fetch('entries_json_file.json')
         
         // Get the selected entry's data
         const selectedEntry = data[index];
-        console.log(selectedEntry)
+        
 
         // Store the selected entry's data in local storage
         localStorage.setItem('selectedEntry', JSON.stringify(selectedEntry));
