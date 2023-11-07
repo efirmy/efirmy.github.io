@@ -16,6 +16,7 @@ fetch('entries_json_file.json')
             if(elementFromJSON){
                 // Display the data on the page
                 document.getElementById('entry-title').textContent = elementFromJSON.title;
+                document.getElementById('data_wpis').textContent = elementFromJSON.data_wpisu;
                 document.getElementById('entry-description').textContent = elementFromJSON.content;
                 document.getElementById('entry-image').src = elementFromJSON.image;
             }else {

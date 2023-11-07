@@ -29,7 +29,7 @@ fetch('entries_json_file.json')
                                 <p>${oneEntry.content} […]</p>
                               </div>
                               <div class="news__content--footer">
-                                <span class="news__item--date">środa, 30.11.2022</span>
+                                <span class="news__item--date">${oneEntry.data_wpisu}</span>
                                 <a class="news__item--link" data-entry-index="${index}" 
                                 
                                 class="news__item--link">Czytaj dalej</a>
@@ -53,7 +53,7 @@ fetch('entries_json_file.json')
         localStorage.setItem('selectedEntry', JSON.stringify(selectedEntry));
 
         // Open a new page with detailed information for the clicked entry
-        window.location.href = `article.html?title=${encodeURIComponent(selectedEntry.title)}&imagePath=${encodeURIComponent(selectedEntry.imagePath)}&indexpage=${index}`;
+        window.location.href = `article.html?title=${encodeURIComponent(selectedEntry.title)}&indexpage=${index}`;
      });
      });  
            
