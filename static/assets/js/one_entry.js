@@ -13,6 +13,13 @@ fetch('entries_json_file.json')
             var queryString = window.location.search;
             var params = new URLSearchParams(queryString);
             var elementFromJSON = data[params.get('indexpage')]
+            var szukanytitle = 'title'
+                 data.forEach(element => {
+                        if (element.title == params.get('title')){
+                                elementFromJSON = element;
+                                console.log('znalazlem cie' + szukanytitle)
+                        }
+            });
             if(elementFromJSON){
                 // Display the data on the page
                 document.getElementById('entry-title').textContent = elementFromJSON.title;
