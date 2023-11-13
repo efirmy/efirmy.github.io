@@ -53,7 +53,7 @@ fetch('entries_json_file.json')
         localStorage.setItem('selectedEntry', JSON.stringify(selectedEntry));
 
         // Open a new page with detailed information for the clicked entry
-        window.location.href = `article.html?title=${encodeURIComponent(selectedEntry.title)}&indexpage=${index}`;
+        window.location.href = `article.html?title=${encodeURIComponent(selectedEntry.title)}`;
      });
      });  
            

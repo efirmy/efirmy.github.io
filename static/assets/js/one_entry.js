@@ -12,7 +12,7 @@ fetch('entries_json_file.json')
     .then(data => {
             var queryString = window.location.search;
             var params = new URLSearchParams(queryString);
-            var elementFromJSON = data[params.get('indexpage')]
+            var elementFromJSON = 'title'
             var szukanytitle = 'title'
                  data.forEach(element => {
                         if (element.title == params.get('title')){
