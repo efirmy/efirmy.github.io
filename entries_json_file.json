@@ -202,6 +202,12 @@
       "image": "static/assets/img/portfolio/praca.jpg",
       "tag":"wiedza",
       "data_wpisu": " 19.11.2023"   
-    }
+    },
+   {
+      "title": "Google pomoże użytkownikom aut elektrycznych i może przekona niezdecydowanych",
+      "content": "Albo samochód elektryczny ma obecnie dobre planowanie ładowania z wykorzystaniem bieżących danych, albo kierowca jest zależny od jednej z odpowiednich aplikacji, które dostarczają informacji o lokalizacji i dostępności punktów ładowania. Szczególnie ci ostatni powinni być zadowoleni z tej wiadomości: dzięki nowej aktualizacji w Mapach Google zostaną udostępnione aktualne informacje o punktach ładowania – zarówno dla urządzeń Apple, jak i Android.Możliwe jest również określenie przyłącza ładowania własnego pojazdu – tzn. czy chcesz ładować tylko za pomocą wtyczki typu 2, za pomocą CCS czy za pomocą CHAdeMO . Następnie możesz odpowiednio filtrować. Punkty ładowania powinny być wyświetlane w prowadzeniu po trasie bezpośrednio na trasie, ale także w jej pobliżu. Jako minimalną moc ładowania można również ustawić 50 kW. „Na wielu stacjach ładowania  będzie można  sprawdzić, czy są one aktualnie dostępne, czy zajęte. Mapy Google pokażą także maksymalną możliwą prędkość ładowania w dostępnych lokalnie punktach ładowania ” – mówi Inside Digital. Powinno być również jasne, którzy dostawcy obecnie pobierający opłaty mogą płacić lokalnie. Jeżeli punkty ładowania nie są dostępne przez całą dobę, zostanie to również uwzględnione. Funkcje dostępne będą także w aplikacjach partnerskich korzystających z danych z Google Maps – pod warunkiem, że operatorzy odpowiednio zaakceptują te dane. Oznacza to, że kierowcy samochodów elektrycznych będą mogli nawigować nie tylko za pomocą telefonu komórkowego – najlepiej za pośrednictwem Apple Car Play lub Android Auto bezpośrednio na wyświetlaczu centralnym. Informacje o możliwościach ładowania będzie można sprawdzić także bezpośrednio w nawigacji. Oczywiście pozostaje opcja dla niektórych- samochód elektryczny ma już szczegółowy plan ładowania, który oprócz punktów ładowania uwzględnia także poziom naładowania akumulatora pojazdu oraz czynniki wpływające na zużycie, takie jak styl jazdy, topografia i natężenie ruchu. Ponieważ w wielu samochodach elektrycznych takie planowanie ładowania jest nadal bardzo ubogie lub po prostu nie istnieje, nowa funkcja w Mapach Google prawdopodobnie będzie bardzo popularna. A przy okazji, kierowcy samochodów nieelektrycznych mogą także zobaczyć, ile punktów ładowania znajduje się obecnie na ich codziennych trasach – to mogłoby rozwiać wszelkie wątpliwości dotyczące zmiany. ",
+      "image": "static/assets/img/portfolio/google.jpg",
+      "tag":"stacje ladowania",
+      "data_wpisu": " 23.11.2023" 
 ]
   
