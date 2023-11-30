@@ -230,6 +230,13 @@
       "image": "static/assets/img/portfolio/stellantiswlochy.jpg",
       "tag":"wydarzenia",
       "data_wpisu": " 28.11.2023"
+        },
+    {
+      "title": "I Mc Donalds też przyjacielem elektryków jest ",
+      "content": "McDonald's France, posiadający około 1400 oddziałów, uruchomił kompleksową inicjatywę promującą elektromobilność . W ścisłej współpracy z Electricité de France (EDF), wiodącą państwową grupą energetyczną we Francji, firma planuje w ciągu najbliższych dwóch lat zainstalować łącznie około 2000 punktów ładowania samochodów elektrycznych w 700 swoich oddziałach.Większość tych stacji ładowania powinna być wyposażona w moc od 150 kW do 200 kW, co oznacza znaczny nakład inwestycyjny. W przypadku tak szczególnie szybkich punktów ładowania wymagane jest podłączenie do sieci średniego napięcia, które jest znacznie droższe w porównaniu do konwencjonalnych punktów ładowania AC o maksymalnej mocy 22 kW. Dla porównania: według informacji Federalnej Agencji Sieci w Niemczech dominują punkty ładowania AC z liczbą od 81 562 do 19 859 punktów ładowania DC.Współpraca McDonald's i EDF przynosi obu stronom znaczne korzyści: z jednej strony restauracje mogą spodziewać się większej liczby klientów, ponieważ kierowcy samochodów elektrycznych mogą wykorzystać czas ładowania na zjedzenie posiłku w restauracji. Z drugiej strony EDF oczekuje efektywnego wykorzystania infrastruktury ładowania poprzez wysokie wykorzystanie.We Francji, gdzie obecnie znajduje się około 110 000 publicznych punktów ładowania , częstą przeszkodą w zakupie samochodów elektrycznych jest obawa przed brakiem możliwości szybkiego ładowania na długich trasach. Nowa inicjatywa McDonald's i EDF ma rozwiać te obawy, a tym samym promować rozpowszechnianie samochodów elektrycznych.Podobny obraz wyłania się w Niemczech: połączenie możliwości ładowania i restauracji szybkiej obsługi wydaje się skuteczne. EWE, główny dostawca energii , planuje także rozbudowę sieci punktów ładowania aż do 1000 oddziałów McDonald's , przy czym punkty ładowania DC są już dostępne w 400 lokalizacjach.",
+      "image": "static/assets/img/portfolio/mcdonalds.jpg",
+      "tag":"wydarzenia",
+      "data_wpisu": " 30.11.2023"
         }
 ]
   
