@@ -31,8 +31,7 @@ fetch('entries_json_file.json')
                               <div class="news__content--footer">
                                 <span class="news__item--date">${oneEntry.data_wpisu}</span>
                                 <a class="news__item--link" data-entry-index="${index}" 
-                                
-                                class="news__item--link">Czytaj dalej</a>
+                                href="article.html?title=${encodeURIComponent(oneEntry.title)}" >Czytaj dalej</a>
                               </div>
                               </div>
                           </li> 

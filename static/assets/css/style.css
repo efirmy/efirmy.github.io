@@ -466,6 +466,7 @@ table td {
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  display: block;
 }
 
 .news__item--link:hover {
@@ -885,7 +886,7 @@ table td {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #5493E9;
+  color: #f7f7f9;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
