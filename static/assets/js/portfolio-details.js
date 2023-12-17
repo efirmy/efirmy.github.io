@@ -18,6 +18,9 @@ fetch('entries_json_file.json')
             
             `
             <ul id="entryList" class="news__list">${data.map(function(oneEntry, index){
+              var eventDate = new Date(oneEntry.data_wpisu);
+              
+
                     return`
                     
                         <li class="news__item" data-show=${oneEntry.tag}>
@@ -26,7 +29,7 @@ fetch('entries_json_file.json')
                               <div class="news__content--main">
                                 <h3 class="news__item--title font-size-20-22 weight-300">
                                 ${oneEntry.title}</h3>
-                                <p>${oneEntry.content} […]</p>
+                                <p>${oneEntry.introduction} […]</p>
                               </div>
                               <div class="news__content--footer">
                                 <span class="news__item--date">${oneEntry.data_wpisu}</span>

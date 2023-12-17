@@ -6,7 +6,7 @@
 //var queryString = window.location.search;
 //var params = new URLSearchParams(queryString);
 //= `article.html?title=${encodeURIComponent(selectedEntry.title)}&imagePath=${encodeURIComponent(selectedEntry.imagePath)}&indexpage=${index + 1}`;
-
+const properContent = document.getElementById('entry-description').textContent;
 fetch('entries_json_file.json')
     .then(response => response.json())
     .then(data => {
@@ -20,11 +20,12 @@ fetch('entries_json_file.json')
                                 console.log('znalazlem cie' + szukanytitle)
                         }
             });
+            const contentOnly = document.getElementById('entry-description')
             if(elementFromJSON){
                 // Display the data on the page
                 document.getElementById('entry-title').textContent = elementFromJSON.title;
                 document.getElementById('data_wpis').textContent = elementFromJSON.data_wpisu;
-                document.getElementById('entry-description').textContent = elementFromJSON.content;
+                document.getElementById('entry-description').innerHTML = elementFromJSON.content
                 document.getElementById('entry-image').src = elementFromJSON.image;
             }else {
                 // Handle the case where no data is found (optional)
