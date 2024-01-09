@@ -6,7 +6,7 @@
 //var queryString = window.location.search;
 //var params = new URLSearchParams(queryString);
 //= `article.html?title=${encodeURIComponent(selectedEntry.title)}&imagePath=${encodeURIComponent(selectedEntry.imagePath)}&indexpage=${index + 1}`;
-const properContent = document.getElementById('entry-description').textContent;
+
 fetch('entries_json_file.json')
     .then(response => response.json())
     .then(data => {
@@ -17,10 +17,9 @@ fetch('entries_json_file.json')
                  data.forEach(element => {
                         if (element.title == params.get('title')){
                                 elementFromJSON = element;
-                                console.log('znalazlem cie' + szukanytitle)
                         }
             });
-            const contentOnly = document.getElementById('entry-description')
+            
             if(elementFromJSON){
                 // Display the data on the page
                 document.getElementById('entry-title').textContent = elementFromJSON.title;
